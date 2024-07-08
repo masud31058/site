@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #ffffff;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container .etc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 20px;
+      }
+
+      .profile-card {
+        width: 400px;
+        height: 550px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #666666;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .pro button {
+        display: inline-block;
+        background-color: #999999;
+        color: white;
+        border: none;
+        box-shadow: 2px 2px 5px #5e5d5d;
+        width: 70px;
+        height: 25px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 4px;
+        float: left;
+      }
+
+      .pro button:hover {
+        background-color: #da9595;
+        box-shadow: 2px 2px 10px #3d3838;
+      }
+
+      .profile-card h2 {
+        margin: 5px 5px;
+        font-size: 30px;
+        color: #1b1a1a;
+        font-weight: bolder;
+      }
+
+      .profile-card h3 {
+        margin: 5px 5px;
+        font-size: 20px;
+        color: #1b1a1a;
+        font-weight: bolder;
+      }
+
+      .profile-card p {
+        font-size: 16px;
+        color: #666666;
+        line-height: 20px;
+      }
+
+      .profile-card .contact-info {
+        font-size: 14px;
+        color: #999999;
+        margin-top: 20px;
+      }
+
+      .profile-card .buttons {
+        margin: 8px;
+      }
+
+      .profile-card .buttons button {
+        padding: 12px 48px;
+        margin: 0 10px;
+        font-size: 16px;
+        border: solid 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .profile-card .buttons button:nth-child(1) {
+        background-color: white;
+        color: #181717;
+      }
+
+      .profile-card .buttons button:nth-child(2) {
+        background-color: #181b18;
+        color: #ffffff;
+      }
+
+      .content {
+        margin-left: 80px;
+      }
+
+      .content h1 {
+        font-size: 100px;
+        color: #080808;
+      }
+
+      .content h2 {
+        font-size: 40px;
+        color: #534c4c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-card">
+        <div class="pro">
+          <button>PRO</button>
+        </div>
+        <img
+          src="https://media.licdn.com/dms/image/D5603AQEklSTetj8FoQ/profile-displayphoto-shrink_200_200/0/1693452840172?e=2147483647&v=beta&t=PlNr1c1sLEOk3pp_egy2R-w3MS1cZ9GyEMpu5NmY3WU"
+          alt="Profile Picture"
+          style="
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+          "
+        />
+
+        <h2>Abdullahil Masud</h2>
+        <h3><i>Web Developer</i></h3>
+        <p>
+          A passionate web developer with a strong focus on frontend as well as
+          backend development.
+        </p>
+        <div class="contact-info">
+          <p>
+            Email: masud31058@gmail.com <br>
+            Phone: +880 1677600600
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="etc">
+            <p>
+              Projects <br />
+              <b>18</b>
+            </p>
+          </div>
+          <div class="etc">
+            <p>
+              Following <br />
+              <b>464</b>
+            </p>
+          </div>
+          <div class="etc">
+            <p>
+              Followers <br />
+              <b>852</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button>Follow</button>
+          <button>Hire me</button>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>
+          Minimal <br />
+          Profile <br />
+          Card
+        </h1>
+        <h2>HTML & CSS</h2>
+      </div>
+    </div>
+  </body>
+</html>
